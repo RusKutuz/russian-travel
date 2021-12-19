@@ -1,0 +1,10 @@
+.places__place {
+    margin: 0 0 80px;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 460px 484px;
+    grid-auto-rows: auto;
+    grid-auto-flow: dense;
+    column-gap: 40px;
+    row-gap: 48px;
+}

@@ -1,0 +1,12 @@
+/* стили хедера */
+.header {
+    margin: 0 0 56px;
+    height: 52px;
+    /* выше установили ограничения для секции */
+    display: flex;
+    padding: 28px 48px 0px;
+    justify-content: space-between;
+    align-items: flex-end;
+    
+    
+  }

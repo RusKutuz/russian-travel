@@ -4,9 +4,34 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 1184px;
-    height: 740px;
+    max-width: 1184px;
+    min-height: 740px;
     padding: 0;
     margin: 0 auto 134px;
-
 }
+
+
+@media screen and (max-width: 1024px) {
+    .cover {
+        max-width: 1024px;
+        min-height: 640px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover {
+        max-width: 768px;
+        min-height: 480px;
+        margin: 0 auto 130px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .cover {
+        max-width: 320px;
+        min-height: 200px;
+        margin: 0 auto 64px;
+    }
+}
+
+

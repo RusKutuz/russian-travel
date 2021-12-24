@@ -2,8 +2,13 @@
     display: flex;
     flex-direction: column;
     justify-content: end;
-    width: 456px;
     vertical-align: bottom;
     margin: 0;
     padding: 0;
+}
+
+@media screen and (max-width: 767px) {
+    .places__website {
+        padding: 0 16px;
+    }
 }

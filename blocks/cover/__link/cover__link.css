@@ -12,6 +12,25 @@
     background-repeat: no-repeat;
 }
 
+.cover__link::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #2A2C2F;
+    text-decoration: none;
+    opacity: .3;
+    z-index: 0;
+}
+
+.cover__link:hover::before {
+    opacity: .8;
+    transition: opacity .3s;
+}
+
+
 @media screen and (max-width: 1279px) {
     .cover__link {
         min-height: 640px;
